@@ -17,6 +17,15 @@ An online bookstore designed during my 4th Semester as a part of my "Web Program
 <li>MongoDB - For Database</li>
 </ul>
 <br>
-<h4>Design</h4>
-<h5>Home Page Header and Banner</h5>
-<h5>Featured Authors Section</h5>
+<h3>Design</h4>
+<h4>Home Page Header and Banner</h5>
+<img align="left" src="https://github.com/vamsi-krishnakOO7/Le-Lecteur-Online-BookStore-Project/blob/main/Home_Page.jpg">
+<br>
+<h4>Featured Authors Section</h5>
+<img align="left" src="https://github.com/vamsi-krishnakOO7/Le-Lecteur-Online-BookStore-Project/blob/main/Amazing_Authors.jpg">
+<br>
+<h4>Featured Books/Classics</h5>
+<img align="left" src="https://github.com/vamsi-krishnakOO7/Le-Lecteur-Online-BookStore-Project/blob/main/Featured_Books.jpg">
+<div></div>
+<h4>Client Reviews Section</h5>
+<img align="left" src="https://github.com/vamsi-krishnakOO7/Le-Lecteur-Online-BookStore-Project/blob/main/Client_Reviews.jpg">
