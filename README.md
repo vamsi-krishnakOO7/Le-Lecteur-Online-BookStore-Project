@@ -19,3 +19,4 @@ An online bookstore designed during my 4th Semester as a part of my "Web Program
 <br>
 <h4>Design</h4>
 <h5>Home Page Header and Banner</h5>
+<h5>Featured Authors Section</h5>
