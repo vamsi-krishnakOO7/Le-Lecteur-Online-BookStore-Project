@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Le Lecteur - The Stop for Book Nerds...</title>
+    <link rel="icon" type="image/x-icon" href="coverimages/favicon-256x256.ico">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- link for our font and icons used in this website -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <!--Come up with a new name for the page-->
+        <a href="index.html" class="logo"> <i class="fas fa-book"></i>  Le Lecteur&#174; </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="Search by Title, Author, Publisher or ISBN" id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <!--Make a form for sellers-->
+            <div id="seller-btn" class="fas fa-money-bill"></div>
+            <a class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#authors">Authors</a>  
+            <a href="#featured">featured</a>
+
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Genre</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#fiction">Fiction</a>
+                  <a href="#scifi">Sci-Fi</a>
+                  <a href="#romance">Romance</a>
+                </div>
+              </div>
+                <a href="#reviews">Reviews</a>
+            <a href="pre-owned.html" target="_blank">Pre-Owned</a>
+        </nav>
+    </div>
+    </header>
+
+</header>
+
+<!-- header section ends -->
+
+<!--sing up-->
+<div class="login-form-container" id = "sign">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sign up</h3>
+        <span>Enter your full name</span>
+        <input type="name" name="" class="box" placeholder="Enter your name" id="" required>
+        <span>choose a password</span>
+        <input type="password" name="" class="box" placeholder="Enter your Password" id="" required>
+        <span>confirm your password</span>
+        <input type="password" name="" class="box" placeholder="Enter your Password" id="" required>
+        <div class="checkbox">
+            <input type="checkbox" name="" id="Remember-Me">
+            <label for="Remember-Me"> Remember Me</label>
+        </div>
+        <input type="Submit" value="Sign In" class="btn">
+        <p>Forgot Password ? <a href="#">Click Here</a></p>
+    </form>
+    </div>
+
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="" class="box" placeholder="Enter your E-mail ID" id="" required>
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="Enter your Password" id="" required>
+        <div class="checkbox">
+            <input type="checkbox" name="" id="Remember-Me">
+            <label for="Remember-Me"> Remember Me</label>
+        </div>
+        <input type="Submit" value="Sign In" class="btn">
+        <p>Forgot Password ? <a href="#">Click Here</a></p>
+        <p>Don't Have an Account? <a href="#sign">Create One</a></p>
+    </form>
+
+</div>
+
+<!-- seller section starts-->
+<!-- seller form  -->
+
+<div class="seller-form-container">
+
+    <div id="close-seller-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sell your books here</h3>
+        <span>Book Name</span>
+        <input type="text" name="" class="box" placeholder="Enter the book name" id="" required>
+        <span>Author Name</span>
+        <input type="text" name="" class="box" placeholder="Enter the author name" id="" required>
+        <span>Publication name</span>
+        <input type="text" name="" class="box" placeholder="Enter the publication name" id="" required>
+        <span>Asking Price</span>
+        <input type="number" name="" class="box" placeholder="Enter the asking price" id="" required>
+        <span>Upload Images of the Book</span>
+        This will help us judge the condition of the book for selling it on our site
+        <input type="file" name="" class="box" placeholder="Upload JPEG, PNG files here..." id="" required>
+        <input type="Submit" value="Sell" class="btn">
+    </form>
+
+</div>
+<!--short quote tab-->
+
+<section class="quote" id="quote">
+
+    <div class="row">
+
+        <div class="content">
+         <h1><center><b><p>A book is a dream <br>
+                that you hold in your hand <br>
+            </p></b></center></h1>
+        </div>
+</div>
+</section>
+
+<!--short quote tab ends-->
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>30% Off on First Order!</h3>
+            <h4>Our First Purchase Offer</h4>
+            <p>Welcome to Le Lecteur. We try to provide you with your daily dose of amazing reads. 
+                And you can get a whopping 30% off on your first order by using our code <b>'LELECTEUR30'</b>. 
+                Browse our amazing collection of classics and make your first purchase. 
+                We wish you a happy reading experience!</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide"><img src="coverimages/Dr.Jekyll_cover.jpg" alt="Dr. Jekyll and Hyde"></a>
+                <a href="dracula.html" target="_blank" class="swiper-slide"><img src="coverimages/draculacover.jpg" alt="Dracula"></a>
+                <a href="sherlockholmes.html" target="_blank" class="swiper-slide"><img src="Featured/sherlockholmescover.jpg" alt="The Adventures Of Sherlock Holmes"></a>
+                <a href="#" class="swiper-slide"><img src="Sci-Fi/WoWcover.jpg" alt="The War Of The Worlds"></a>
+                <a href="#" class="swiper-slide"><img src="Featured/12yearsaslavecover.jpg" alt="Twelve Years A Slave"></a>
+                <a href="#" class="swiper-slide"><img src="Featured/greatgatsbycover.jpg" alt="The Great Gatsby"></a>
+                <a href="#" class="swiper-slide"><img src="Featured/theblackcatcover.jpg" alt="The Black Cat"></a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <div class="content">
+            <h3>Free Shipping</h3>
+            <p>For orders over &#8377 1000</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>Secure Payment</h3>
+            <p>100% Secure and reliable Payments</p>
+        </div>
+    </div>
+
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>Active Customer Support</h3>
+            <p>Contact Us Anytime for Service related Enqueries</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-heart"></i>
+        <div class="content">
+            <h3>Book Lovers</h3>
+            <p>Welcome to a community of book lovers, jsut like you</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- icons section ends -->
+
+<!--Authors section starts-->
+
+<section class="authors" id ="authors">
+
+    <h1 class="heading"> <span>Amazing Authors</span> </h1>
+    <h2><center><p>These are the amazing authors whose books we are selling. We are truly lucky to be reading the works of these incredible people</p></center></h2>
+
+    <div class="swiper authors-slider">
+
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide box">
+            <img src="authors/arthurcdoyle.jpg" alt="">
+            <h3>Arthur C Doyle</h3>
+            <p>Sir Arthur Ignatius Conan Doyle was a British writer and physician. He created Sherlock Holmes in 1887 for A Study in Scarlet, the first of four novels about Holmes and Dr. Watson.</p>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="authors/bstoker.jpg" alt="">
+            <h3>Bram Stoker</h3>
+            <p>Abraham Stoker was an Irish author, best known for his 1897 Gothic horror novel Dracula. During his lifetime, he was better known as the assistant and the business manager of the reputed Lyceum Theatre</p>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="authors/edgarallan.jpg" alt="">
+            <h3>Edgar Allan Poe</h3>
+            <p>Edgar Allan Poe was an American writer and poet. Poe is best known for his poetry and his tales of mystery. He is regarded as a central figure of Romanticism in American literature. </p>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="authors/herman.jpg" alt="">
+            <h3>Herman Melville</h3>
+            <p>Herman Melville was an American novelist of the American Renaissance period. He is the author of Moby-Dick, which is now considered one of the great American novels.</p>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="authors/hgwells.jpg" alt="">
+            <h3>H.G. Wells</h3>
+            <p>Herbert George Wells was an English writer who was prolific in many genres and wrote dozens of novels and short stories. His work also included two books on recreational war games.</p>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="authors/jane.jpg" alt="">
+            <h3>Jane Austen</h3>
+            <p>Jane Austen was an English novelist known primarily for her six major novels, which interpret, critique and comment upon the British landed gentry at the end of the 18th century.</p>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="authors/louisamay.jpg" alt="">
+            <h3>Louisa May Alcott</h3>
+            <p>Louisa May Alcott was an American novelist, short story writer, and poet best known as the author of the novel Little Women (1868) and its sequels Little Men (1871) and Jo's Boys (1886).</p>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="authors/mary.jpg" alt="">
+            <h3>Mary Shelly</h3>
+            <p>Mary Wollstonecraft Shelley was an English novelist who wrote the Gothic novel Frankenstein; or, The Modern Prometheus (1818), which is considered an early example of science fiction.</p>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="authors/scottf.jpg" alt="">
+            <h3>Scott F Fitzgerald</h3>
+            <p>Francis Scott Key Fitzgerald was an American novelist, essayist and short story writer best known for his novels depicting the flamboyance and excess of the Jazz Age—a term he popularized.</p>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="authors/solomon.jpg" alt="">
+            <h3>Solomon Northup</h3>
+            <p>Solomon Northup was an American abolitionist and the primary author of the memoir Twelve Years a Slave. He was the son of a freed slave and a free woman of color.</p>
+        </div>
+    </div>
+    </div>
+</section>
+<!--Authors section ends-->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>Our Featured Books</span> </h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                   
+                    <a href="#" class="fas fa-eye" onclick="pop()"></a>
+                </div>
+                <div class="image">
+                   <a href = "sherlockholmes.html" target="_blank"><img src="Featured/sherlockholmescover.jpg" alt="The Adventures of Sherlock Holmes"></a>
+                </div>
+                <div class="content">
+                    <h3>Sherlock Holmes</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                
+                    <a href="dracula.html" target="_blank" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                   <a href = "dracula.html" target="_blank"><img src="coverimages/draculacover.jpg" alt="Dracula"></a>
+                </div>
+                <div class="content">
+                    <h3>Dracula</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                 
+                    <a href="css/frankenstein.html" target="_blank" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Featured/frankenteincover.jpg" alt="Frankenstein">
+                </div>
+                <div class="content">
+                    <h3>Frankenstein</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                  
+                    <a href="gatsby.html" target="_blank" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Featured/greatgatsbycover.jpg" alt="The Great Gatsby">
+                </div>
+                <div class="content">
+                    <h3>The Great Gatsby</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                
+                    <a href="blackcat.html" target = "_blank" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Featured/theblackcatcover.jpg" alt="The Black Cat">
+                </div>
+                <div class="content">
+                    <h3>The Black Cat</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+              
+                    <a href="12years.html" target="_blank" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Featured/12yearsaslavecover.jpg" alt="Twelve Years A Slave">
+                </div>
+                <div class="content">
+                    <h3>Twelve Years A Slave</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                   
+                    <a href="emma.html" target="_blank" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Featured/emmacover.jpg" alt="Emma">
+                </div>
+                <div class="content">
+                    <h3>Emma</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                   
+                    <a href="mobydick.html" target="_blank" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Featured/mobydickcover.jpg" alt="Moby Dick">
+                </div>
+                <div class="content">
+                    <h3>Moby Dick</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                   
+                    <a href="littlewomen.html" target="_blank" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Featured/littlewomencover.jpg" alt="Little Women">
+                </div>
+                <div class="content">
+                    <h3>Little Women</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                 
+                    <a href="spaceandtime.html" target="_blank" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Featured/talesofsandtcover.jpg" alt="Tales Of Space and Times">
+                </div>
+                <div class="content">
+                    <h3>Tales Of S And T</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+
+<!-- newsletter section starts -->
+
+<section class="newsletter">
+
+    <form action="">
+        <h3>Subscribe For Latest Updates regarding your Favourite Books</h3>
+        <input type="email" name="" placeholder="Enter your E-mail ID" id="" class="box">
+        <input type="submit" value="Subscribe" class="btn">
+    </form>
+
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- Fiction section starts  -->
+
+<section class="fiction" id="fiction">
+
+    <h1 class="heading"> <span>Best Of Fiction</span> </h1>
+
+    <div class="swiper fiction-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="Fiction/1984cover.jpg" alt="Nineteen Eighty Four">
+                </div>
+                <div class="content">
+                    <h3>Nineteen Eighty Four</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#"class="swiper-slide box">
+                <div class="image">
+                    <img src="Fiction/crimeandpunishment.jpg" alt="Crime and Punishment">
+                </div>
+                <div class="content">
+                    <h3>Crime and Punishment</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+           <img src="Fiction/drjekyllcover.jpg" alt="Dr. Jekyll and Mr. Hyde">
+                </div>
+                <div class="content">
+                    <h3>The Strange Case of Dr. Jekyll and Mr. Hyde</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="Fiction/huckleberryfinncover.jpg" alt="Adventures of Huckleberry Finn">
+                </div>
+                <div class="content">
+                    <h3>Adventures of Huckleberry Finn</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="Fiction/tomsawyercover.jpg" alt="Adventures of Tom Sawyer">
+                </div>
+                <div class="content">
+                    <h3>Adventures of Tom Sawyer</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Fiction section ends -->
+
+<!-- Science-Fiction section starts  -->
+
+<section class="scifi" id="scifi">
+
+    <h1 class="heading"> <span>Best Of Sci-Fi</span> </h1>
+
+    <div class="swiper scifi-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="#"class="swiper-slide box">
+                <div class="image">
+                    <img src="Sci-Fi/dreamquestcover.jpg" alt="The Dream Quest Of Unknown Kadath">
+                </div>
+                <div class="content">
+                    <h3>The Dream Quest Of Unknown Kadath</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                <img src="Sci-Fi/coloroutofspacecover.jpg" alt="The Colour Out Of Space">
+                </div>
+                <div class="content">
+                    <h3>The Color Out Of Space</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </a>
+
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+            <img src="Sci-Fi/islandofmoreaucover.jpg" alt="The Island of Dr. Moreau">
+                </div>
+                <div class="content">
+                    <h3>The Island of Dr. Moreau</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="Sci-Fi/metamorphosiscover.jpg" alt="The Metamorphosis">
+                </div>
+                <div class="content">
+                    <h3>The Metamorphosis</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="Sci-Fi/shadowoverinsmouthcover.jpg" alt="The Shadow Over Innsmouth">
+                </div>
+                <div class="content">
+                    <h3>The Shadow Over Innsmouth</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="Sci-Fi/WoWcover.jpg" alt="The War Of The Worlds">
+                </div>
+                <div class="content">
+                    <h3>The War Of The Worlds</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Science-Fiction section ends -->
+
+<!-- Romance section starts  -->
+
+<section class="romance" id="romance">
+
+    <h1 class="heading"> <span>Best Of Romance</span> </h1>
+
+    <div class="swiper romance-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="Romance/amidsummersnightdreamcover.jpg" alt="A Midsummer Night's Dream">
+                </div>
+                <div class="content">
+                    <h3>A Midsummer Night's Dream</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#"class="swiper-slide box">
+                <div class="image">
+                    <img src="Romance/aroomwithaviewcover.jpg" alt="A Room With A View">
+                </div>
+                <div class="content">
+                    <h3>A Room With A View</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+            <img src="Romance/mansfiledparkcover.jpg" alt="Mansfield Park">
+                </div>
+                <div class="content">
+                    <h3>Mansfield Park</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="Romance/PrideAndPredudice_cover.jpg" alt="Pride And Prejudice">
+                </div>
+                <div class="content">
+                    <h3>Pride And Prejudice</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="Romance/pygmalioncover.jpg" alt="Pygmalion">
+                </div>
+                <div class="content">
+                    <h3>Pygmalion</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="Romance/randjcover.jpg" alt="Romeo And Juliet">
+                </div>
+                <div class="content">
+                    <h3>Romeo And Juliet</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="Romance/wuthering heightscover.jpg" alt="Wuthering Heights">
+                </div>
+                <div class="content">
+                    <h3>Wuthering Heights</h3>
+                    <div class="price">&#8377 300 <span class="WebRupee">&#8377 500</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Romance section ends -->
+
+<!-- deal section starts  -->
+
+<section class="deal">
+
+    <div class="content">
+        <h3>deal of the day</h3>
+        <h1>The World of Science Fiction</h1>
+        <p><b>"If science fiction is the mythology of modern technology, then its myth is tragic"</b>.
+               Customers and hardcore fans of Science Fiction can rejoice as we have an amazing deal! 
+               Get upto 25% off by purchasing your favourite Sci-Fi genre book. Customers can choose
+               from our amazing hand picked Sci-Fi collection and get the product delivered to them with utmost
+               caution and safety. Happy Reading!</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+
+    <div class="image">
+        <img src="Sci-Fi/scificovers.jpg" alt="">
+    </div>
+
+</section>
+
+<!-- deal section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> <span>Our Client Reviews</span> </h1>
+
+    <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image//pic-1.png" alt="">
+                <h3>John Doe</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil ipsa placeat. Aperiam at sint, eos ex similique facere hic.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-2.jpg" alt="">
+                <h3>Eva Jones</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil ipsa placeat. Aperiam at sint, eos ex similique facere hic.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-3.jpg" alt="">
+                <h3>Peter Parker</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil ipsa placeat. Aperiam at sint, eos ex similique facere hic.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/pic-4.jpg" alt="">
+                <h3>PewDiePie</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil ipsa placeat. Aperiam at sint, eos ex similique facere hic.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- reviews section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our locations in india</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Mumbai </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Delhi </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Hyderabad </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Kolkata </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Bengaluru </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Chennai </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> fiction </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Science-Fiction</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Romance</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +XXXXXXXXXX </a>
+            <a href="#"> <i class="fas fa-envelope"></i> lelecteurbookstore@gmail.com </a>
+            <img src="image/worldmap.png" class="map" alt="">
+        </div>
+        
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-instagram"></a>
+    </div>
+
+    <div class="designers"> Website designed by <span>Monika Raghav and K. Vamsi Krishna - CSE-1</span> | Web Development Project </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- loader  -->
+
+<div class="loader-container">
+    <img src="coverimages/bookloadgif.gif" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

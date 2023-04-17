@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Le Lecteur - Pre-Owned Section</title>
+    <link rel="icon" type="image/x-icon" href="coverimages/favicon-256x256.ico">
+
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- link for our font and icons used in this website -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+<header class="header">
+
+    <div class="header-1">
+
+        <!--Come up with a new name for the page-->
+        <a href="index.html" class="logo"> <i class="fas fa-book"></i>  Le Lecteur&#174; </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="Search by Title, Author, Publisher or ISBN" id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <!--Make a form for sellers-->
+            <div id="seller-btn" class="fas fa-money-bill"></div>
+            <a class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="project.html" target="_blank">home</a>
+            <a href="#authors">Authors</a>  
+            <a href="#featured">Pre-Owned</a>
+                <a href="#reviews">Reviews</a>
+        </nav>
+    </div>
+    </header>
+
+</header>
+
+<!-- header section ends -->
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="" class="box" placeholder="Enter your E-mail ID" id="" required>
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="Enter your Password" id="" required>
+        <div class="checkbox">
+            <input type="checkbox" name="" id="Remember-Me">
+            <label for="Remember-Me"> Remember Me</label>
+        </div>
+        <input type="Submit" value="Sign In" class="btn">
+        <p>Forgot Password ? <a href="#">Click Here</a></p>
+        <p>Don't Have an Account ? <a href="#">Create One</a></p>
+    </form>
+
+</div>
+
+<!-- seller section starts-->
+<!-- seller form  -->
+
+<div class="seller-form-container">
+
+    <div id="close-seller-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sell your books here</h3>
+        <span>Book Name</span>
+        <input type="text" name="" class="box" placeholder="Enter the book name" id="" required>
+        <span>Author Name</span>
+        <input type="text" name="" class="box" placeholder="Enter the author name" id="" required>
+        <span>Publication name</span>
+        <input type="text" name="" class="box" placeholder="Enter the publication name" id="" required>
+        <span>Asking Price</span>
+        <input type="number" name="" class="box" placeholder="Enter the asking price" id="" required>
+        <span>Upload Images of the Book</span>
+        This will help us judge the condition of the book for selling it on our site
+        <input type="file" name="" class="box" placeholder="Upload JPEG, PNG files here..." id="" required>
+        <input type="Submit" value="Sell" class="btn">
+    </form>
+
+</div>
+<!--short quote tab-->
+
+<section class="quote" id="quote">
+
+    <div class="row">
+
+        <div class="content">
+         <h1><center><b><p>Old books you know well,<br>are books of the world's<br>youth, and new books are<br>the fruits of its age.
+            </p></b></center></h1>
+        </div>
+</div>
+</section>
+
+<!--short quote tab ends-->
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>Our Pre-Owned Section</h3>
+            <h4>Le Lecteur's Pre-Owned Section</h4>
+            <p>Welcome to Le Lecteur. This is our pre-owned section where we put up used books for sale, and that too
+                for a very cheap price. So, you get a good read and you also get to save your money!! We promise you that
+                we only provide the best books to you and you can trust us with the quality of these books. <br>We wish you a happy reading experience!</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide"><img src="coverimages/Dr.Jekyll_cover.jpg" alt="Dr. Jekyll and Hyde"></a>
+                <a href="dracula.html" target="_blank" class="swiper-slide"><img src="coverimages/draculacover.jpg" alt="Dracula"></a>
+                <a href="sherlockholmes.html" target="_blank" class="swiper-slide"><img src="Featured/sherlockholmescover.jpg" alt="The Adventures Of Sherlock Holmes"></a>
+                <a href="#" class="swiper-slide"><img src="Sci-Fi/WoWcover.jpg" alt="The War Of The Worlds"></a>
+                <a href="#" class="swiper-slide"><img src="Featured/12yearsaslavecover.jpg" alt="Twelve Years A Slave"></a>
+                <a href="#" class="swiper-slide"><img src="Featured/greatgatsbycover.jpg" alt="The Great Gatsby"></a>
+                <a href="#" class="swiper-slide"><img src="Featured/theblackcatcover.jpg" alt="The Black Cat"></a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <div class="content">
+            <h3>Free Shipping</h3>
+            <p>For orders over &#8377 1000</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>Secure Payment</h3>
+            <p>100% Secure and reliable Payments</p>
+        </div>
+    </div>
+
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>Active Customer Support</h3>
+            <p>Contact Us Anytime for Service related Enqueries</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-heart"></i>
+        <div class="content">
+            <h3>Book Lovers</h3>
+            <p>Welcome to a community of book lovers, jsut like you</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-book"></i>
+        <div class="content">
+            <h3>Good Quality</h3>
+            <p>We deliver good quality books for a cheap price</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- icons section ends -->
+
+<!--Authors section starts-->
+
+<section class="authors" id ="authors">
+
+    <h1 class="heading"> <span>Amazing Authors</span> </h1>
+    <h2><center><p>These are the amazing authors whose books we are selling. We are truly lucky to be reading the works of these incredible people</p></center></h2>
+
+    <div class="swiper authors-slider">
+
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide box">
+            <img src="authors/arthurcdoyle.jpg" alt="">
+            <h3>Arthur C Doyle</h3>
+            <p>Sir Arthur Ignatius Conan Doyle was a British writer and physician. He created Sherlock Holmes in 1887 for A Study in Scarlet, the first of four novels about Holmes and Dr. Watson.</p>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="authors/bstoker.jpg" alt="">
+            <h3>Bram Stoker</h3>
+            <p>Abraham Stoker was an Irish author, best known for his 1897 Gothic horror novel Dracula. During his lifetime, he was better known as the assistant and the business manager of the reputed Lyceum Theatre</p>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="authors/edgarallan.jpg" alt="">
+            <h3>Edgar Allan Poe</h3>
+            <p>Edgar Allan Poe was an American writer and poet. Poe is best known for his poetry and his tales of mystery. He is regarded as a central figure of Romanticism in American literature. </p>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="authors/herman.jpg" alt="">
+            <h3>Herman Melville</h3>
+            <p>Herman Melville was an American novelist of the American Renaissance period. He is the author of Moby-Dick, which is now considered one of the great American novels.</p>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="authors/hgwells.jpg" alt="">
+            <h3>H.G. Wells</h3>
+            <p>Herbert George Wells was an English writer who was prolific in many genres and wrote dozens of novels and short stories. His work also included two books on recreational war games.</p>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="authors/jane.jpg" alt="">
+            <h3>Jane Austen</h3>
+            <p>Jane Austen was an English novelist known primarily for her six major novels, which interpret, critique and comment upon the British landed gentry at the end of the 18th century.</p>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="authors/louisamay.jpg" alt="">
+            <h3>Louisa May Alcott</h3>
+            <p>Louisa May Alcott was an American novelist, short story writer, and poet best known as the author of the novel Little Women (1868) and its sequels Little Men (1871) and Jo's Boys (1886).</p>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="authors/mary.jpg" alt="">
+            <h3>Mary Shelly</h3>
+            <p>Mary Wollstonecraft Shelley was an English novelist who wrote the Gothic novel Frankenstein; or, The Modern Prometheus (1818), which is considered an early example of science fiction.</p>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="authors/scottf.jpg" alt="">
+            <h3>Scott F Fitzgerald</h3>
+            <p>Francis Scott Key Fitzgerald was an American novelist, essayist and short story writer best known for his novels depicting the flamboyance and excess of the Jazz Age—a term he popularized.</p>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="authors/solomon.jpg" alt="">
+            <h3>Solomon Northup</h3>
+            <p>Solomon Northup was an American abolitionist and the primary author of the memoir Twelve Years a Slave. He was the son of a freed slave and a free woman of color.</p>
+        </div>
+    </div>
+    </div>
+</section>
+<!--Authors section ends-->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>Our Pre-Owned Books</span> </h1>
+    <h2><center><p>This is our collection of amazing Pre-Owned books. We aim to give you the best of services for the cheapest of prices</p></center></h2>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                   
+                    <a href="#" class="fas fa-eye" onclick="pop()"></a>
+                </div>
+                <div class="image">
+                   <a href = "#"><img src="Featured/sherlockholmescover.jpg" alt="The Adventures of Sherlock Holmes"></a>
+                </div>
+                <div class="content">
+                    <h3>Sherlock Holmes</h3>
+                    <h4>Condition: Good</h4>
+                    <div class="price">&#8377 100 <span class="WebRupee">&#8377 500</span></div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                
+                    <a href="dracula.html" target="_blank" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                   <a href = "dracula.html" target="_blank"><img src="coverimages/draculacover.jpg" alt="Dracula"></a>
+                </div>
+                <div class="content">
+                    <h3>Dracula</h3>
+                    <h4>Condition: Very Good</h4>
+                    <div class="price">&#8377 100 <span class="WebRupee">&#8377 500</span></div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                 
+                    <a href="css/frankenstein.html" target="_blank" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Featured/frankenteincover.jpg" alt="Frankenstein">
+                </div>
+                <div class="content">
+                    <h3>Frankenstein</h3>
+                    <h4>Condition: Okay</h4>
+                    <div class="price">&#8377 100 <span class="WebRupee">&#8377 500</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                  
+                    <a href="gatsby.html" target="_blank" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Featured/greatgatsbycover.jpg" alt="The Great Gatsby">
+                </div>
+                <div class="content">
+                    <h3>The Great Gatsby</h3>
+                    <h4>Condition: Mint</h4>
+                    <div class="price">&#8377 100 <span class="WebRupee">&#8377 500</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                
+                    <a href="blackcat.html" target = "_blank" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Featured/theblackcatcover.jpg" alt="The Black Cat">
+                </div>
+                <div class="content">
+                    <h3>The Black Cat</h3>
+                    <h4>Condition: Amazing</h4>
+                    <div class="price">&#8377 100 <span class="WebRupee">&#8377 500</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+              
+                    <a href="12years.html" target="_blank" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Featured/12yearsaslavecover.jpg" alt="Twelve Years A Slave">
+                </div>
+                <div class="content">
+                    <h3>Twelve Years A Slave</h3>
+                    <h4>Condition: Good</h4>
+                    <div class="price">&#8377 100 <span class="WebRupee">&#8377 500</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                   
+                    <a href="emma.html" target="_blank" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Featured/emmacover.jpg" alt="Emma">
+                </div>
+                <div class="content">
+                    <h3>Emma</h3>
+                    <h4>Condition: Very Good</h4>
+                    <div class="price">&#8377 100 <span class="WebRupee">&#8377 500</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                   
+                    <a href="mobydick.html" target="_blank" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Featured/mobydickcover.jpg" alt="Moby Dick">
+                </div>
+                <div class="content">
+                    <h3>Moby Dick</h3>
+                    <h4>Condition: Okay</h4>
+                    <div class="price">&#8377 100 <span class="WebRupee">&#8377 500</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                   
+                    <a href="littlewomen.html" target="_blank" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Featured/littlewomencover.jpg" alt="Little Women">
+                </div>
+                <div class="content">
+                    <h3>Little Women</h3>
+                    <h4>Condition: Good</h4>
+                    <div class="price">&#8377 100 <span class="WebRupee">&#8377 500</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                 
+                    <a href="spaceandtime.html" target="_blank" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="Featured/talesofsandtcover.jpg" alt="Tales Of Space and Times">
+                </div>
+                <div class="content">
+                    <h3>Tales Of S And T</h3>
+                    <h4>Condition: Very Good</h4>
+                    <div class="price">&#8377 100 <span class="WebRupee">&#8377 500</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+
+<!-- newsletter section starts -->
+
+<section class="newsletter">
+
+    <form action="">
+        <h3>Subscribe For Latest Updates regarding your Favourite Books</h3>
+        <input type="email" name="" placeholder="Enter your E-mail ID" id="" class="box">
+        <input type="submit" value="Subscribe" class="btn">
+    </form>
+
+</section>
+
+<!-- newsletter section ends -->
+<!-- deal section starts  -->
+
+<section class="deal">
+
+    <div class="content">
+        <center><h1>Want to become a Seller?</h1></center>
+        <center><h3>Welcome Sellers!!!</h3></center>
+        <p><b>We understand that sometimes you look at the corner of your room and see all your books.
+            Just lying there. You want to sell them for some quick cash and to get rid of them, but
+            you do not know where and how. Well, do not worry sellers, <b>LE LECTEUR</b> is here
+            with our offer for sellers. We are ready to provide a platform to you where you can safely
+            sell your old books for a good price. So what are you waiting for? Click the <b>"Dollar"</b> 
+            icon in the corner of the screen and start selling!!!! <br> Happy Reading!</p>
+        <center><a href="#" class="btn">Sell now</a></center>
+    </div>
+
+    <div class="image">
+        <img src="coverimages/bookseller.jpg" height="300px" width="500px">
+    </div>
+
+</section>
+
+<!-- deal section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> <span>Our Client Reviews</span> </h1>
+
+    <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image//pic-1.png" alt="">
+                <h3>John Doe</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil ipsa placeat. Aperiam at sint, eos ex similique facere hic.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-2.jpg" alt="">
+                <h3>Eva Jones</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil ipsa placeat. Aperiam at sint, eos ex similique facere hic.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-3.jpg" alt="">
+                <h3>Peter Parker</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil ipsa placeat. Aperiam at sint, eos ex similique facere hic.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/pic-4.jpg" alt="">
+                <h3>PewDiePie</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nihil ipsa placeat. Aperiam at sint, eos ex similique facere hic.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- reviews section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our locations in india</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Mumbai </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Delhi </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Hyderabad </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Kolkata </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Bengaluru </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Chennai </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="project.html" target="_blank"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#authors"> <i class="fas fa-arrow-right"></i> Authors </a>
+            <a href="#featured"> <i class="fas fa-arrow-right"></i> pre-owned </a>
+            <a href="#reviews"> <i class="fas fa-arrow-right"></i> reviews </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +XXXXXXXXXX </a>
+            <a href="#"> <i class="fas fa-envelope"></i> lelecteurbookstore@gmail.com </a>
+            <img src="image/worldmap.png" class="map" alt="">
+        </div>
+        
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-instagram"></a>
+    </div>
+
+    <div class="designers"> Website designed by <span>Monika Raghav and K. Vamsi Krishna - CSE-1</span> | Web Development Project </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- loader  -->
+
+<div class="loader-container">
+    <img src="coverimages/bookloadgif.gif" alt="">
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
